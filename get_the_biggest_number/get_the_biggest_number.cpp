@@ -1,18 +1,20 @@
 #include<iostream>
 using namespace std;
-int main()
-{
-    int myArr[] = [2,10,9,8,7];
+int main() {
+    int myArr[5] = {2,10,9,8,7};
 
     int biggestNum = 0;
 
-    for(int i = 0; i < sizeof(myArr); i++) {
+    /**TODO: figure out the array */
+    cout << "Size array" << sizeof(myArr) << endl;
+
+    for(int i = 0; i < 5; i++) {
         if(biggestNum < myArr[i]) {
             biggestNum = myArr[i];
         }
     }
 
-    cout >> biggestNum;
+    return 0;
 }
     /**
     biggestNum = 0
