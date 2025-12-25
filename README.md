@@ -1,1 +1,1 @@
-# practice-2
+This repo is used to practice C++ language. 
