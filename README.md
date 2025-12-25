@@ -1,1 +1,1 @@
-This repo is used to practice C++ language. 
+This repo is used to practice C++ and Python language. 
