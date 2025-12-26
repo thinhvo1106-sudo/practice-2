@@ -16,14 +16,14 @@ int main() {
 }
 /**Find special character */
 int findSpecialCharacter(string providedString) {
-    char specialChar = '!';
+    string specialChar = "!@";
     int count = 0;
     for(int pos=0; pos<10 ; pos++){
-        if(providedString[pos] == specialChar){
-            count++;
+        for(int place=0;place<2;place++){
+            if(providedString[pos] == specialChar[place]){
+                count++;
+            }
         }
-        
-    }
-
+    }  
     return count;
 }
