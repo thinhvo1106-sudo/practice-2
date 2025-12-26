@@ -4,10 +4,10 @@ using namespace std;
 bool findNum(int myArr[], int num);
 int main() {
     int myArr[5] = {2,10,9,8,7};
-    int num = 7;
-    bool exist = findNum(myArr, num);
+    int num = 5;
+    bool found = findNum(myArr, num);
 
-    if (exit) {
+    if (found) {
         cout << "Find the number" << endl;
     } else {
         cout << "Cannot find the number" << endl;
@@ -18,5 +18,15 @@ int main() {
 
 /** Find whether an number in the given array */
 bool findNum (int myArr[], int num) {
-    return 1;
+    for(int pos = 0; pos < 5; pos++) {
+        if(num == myArr[pos]) {
+            return true;
+        }
+    }
+    return false;
 }
+
+
+
+
+
